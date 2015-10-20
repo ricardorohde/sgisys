@@ -1,0 +1,130 @@
+#mostrar {
+    width: auto;
+    height: auto;
+    border: 2px solid #0038ce;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+#pesquisa {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.div_esq {
+    width: auto;
+    height: auto;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.div_dir {
+    width: auto;
+    width: 600px;
+    height: auto;
+    float: left;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.form-varchar {
+    width: auto;
+    padding: 10px;
+    height: 35px;
+    float:left;
+    padding-left: 30px;
+    font-size: 13px;
+    overflow: hidden;
+}
+
+.form-textarea {
+    width: auto;
+    padding: 10px;
+    height: auto;
+    float:left;
+    padding-left: 30px;
+    font-size: 13px;
+    overflow: hidden;
+}
+
+#foto-detalhe {
+    width: 430px;
+    height: 322px;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    padding: 0;
+    margin: 0;
+    float:left;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    background: white;
+}
+
+#foto-detalhe-p {
+    width: 100px;
+    height: 130px;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    padding: 0;
+    margin: 0;
+    float:left;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    background: white;
+}
+
+#div-fotos {
+    display: none;
+    background: white;
+    overflow: hidden;
+    z-index: 900;
+    padding: 10px;
+}
+
+#div-fotos img {
+    float: left;
+    margin: 10px;
+    width: 150px;
+}
+
+#fundo-negro {
+    display: none;
+    background: black;
+    opacity: 0.7;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+#listagem {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+
+#quadro-edita {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: -450px;
+    width: 920px;
+    height: auto;
+    border: 2px solid orange;
+    background: #eee;
+    z-index: 999;
+    display: none;
+    overflow: hidden;
+}

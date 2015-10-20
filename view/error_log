@@ -1,0 +1,325 @@
+[26-Jul-2015 17:40:27 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected $end in /home/sgipl134/public_html/view/cadastros.php on line 388
+[27-Jul-2015 08:00:03 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: a1f109ce-344e-11e5-995f-65875789e677
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[27-Jul-2015 08:00:03 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[27-Jul-2015 08:00:23 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: ae2b39df-344e-11e5-aa36-3fddafa3a6d4
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[27-Jul-2015 08:00:24 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[27-Jul-2015 08:00:26 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: afea4f10-344e-11e5-86df-59c30d247960
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[27-Jul-2015 08:00:26 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[28-Jul-2015 08:00:02 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: cb930d09-3517-11e5-bfa2-bfe26f6c5191
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[28-Jul-2015 08:00:02 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[28-Jul-2015 08:00:20 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: d660191e-3517-11e5-b15f-9b4dd2596a26
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[28-Jul-2015 08:00:20 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[28-Jul-2015 08:00:22 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: d7efe01b-3517-11e5-83f0-d13e6a9bb6f2
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[28-Jul-2015 08:00:23 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[28-Jul-2015 10:00:54 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2003] Can't connect to MySQL server on '162.144.109.206' (99)' in /home/sgipl134/public_html/model/conexao.php:19
+Stack trace:
+#0 /home/sgipl134/public_html/model/conexao.php(19): PDO->__construct('mysql:host=162....', 'sgipl134_0047', 'imoveis0102')
+#1 /home/sgipl134/public_html/controller/imovel_foto.php(9): conexao->__construct()
+#2 /home/sgipl134/public_html/view/cadastro_foto_upload.php(26): imovel_foto_listar('12522')
+#3 {main}
+  thrown in /home/sgipl134/public_html/model/conexao.php on line 19
+[28-Jul-2015 10:00:55 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2003] Can't connect to MySQL server on '162.144.109.206' (99)' in /home/sgipl134/public_html/model/conexao.php:19
+Stack trace:
+#0 /home/sgipl134/public_html/model/conexao.php(19): PDO->__construct('mysql:host=162....', 'sgipl134_0040', 'imoveis0102')
+#1 /home/sgipl134/public_html/view/home.php(13): conexao->__construct()
+#2 {main}
+  thrown in /home/sgipl134/public_html/model/conexao.php on line 19
+[28-Jul-2015 10:00:57 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2003] Can't connect to MySQL server on '162.144.109.206' (99)' in /home/sgipl134/public_html/model/conexao.php:19
+Stack trace:
+#0 /home/sgipl134/public_html/model/conexao.php(19): PDO->__construct('mysql:host=162....', 'sgipl134_0047', 'imoveis0102')
+#1 /home/sgipl134/public_html/controller/usuario.php(11): conexao->__construct()
+#2 /home/sgipl134/public_html/view/cadastros.php(9): usuario_carregar('42')
+#3 {main}
+  thrown in /home/sgipl134/public_html/model/conexao.php on line 19
+[28-Jul-2015 10:00:58 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2003] Can't connect to MySQL server on '162.144.109.206' (99)' in /home/sgipl134/public_html/model/conexao.php:19
+Stack trace:
+#0 /home/sgipl134/public_html/model/conexao.php(19): PDO->__construct('mysql:host=162....', 'sgipl134_0047', 'imoveis0102')
+#1 /home/sgipl134/public_html/controller/usuario_acesso.php(17): conexao->__construct()
+#2 /home/sgipl134/public_html/view/cadastro_edita.php(40): usuario_acesso_carregar('29')
+#3 {main}
+  thrown in /home/sgipl134/public_html/model/conexao.php on line 19
+[28-Jul-2015 18:09:44 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2003] Can't connect to MySQL server on '162.144.109.206' (99)' in /home/sgipl134/public_html/model/conexao.php:19
+Stack trace:
+#0 /home/sgipl134/public_html/model/conexao.php(19): PDO->__construct('mysql:host=162....', 'sgipl134_0048', 'imoveis0102')
+#1 /home/sgipl134/public_html/controller/usuario.php(11): conexao->__construct()
+#2 /home/sgipl134/public_html/view/cadastros.php(9): usuario_carregar('17')
+#3 {main}
+  thrown in /home/sgipl134/public_html/model/conexao.php on line 19
+[28-Jul-2015 18:09:49 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2003] Can't connect to MySQL server on '162.144.109.206' (99)' in /home/sgipl134/public_html/model/conexao.php:19
+Stack trace:
+#0 /home/sgipl134/public_html/model/conexao.php(19): PDO->__construct('mysql:host=162....', 'sgipl134_0023', 'imoveis0102')
+#1 /home/sgipl134/public_html/view/home.php(13): conexao->__construct()
+#2 {main}
+  thrown in /home/sgipl134/public_html/model/conexao.php on line 19
+[29-Jul-2015 08:00:02 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: f62fc3b9-35e0-11e5-b6d0-2b17547516ba
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[29-Jul-2015 08:00:02 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[29-Jul-2015 08:00:21 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 0198e8d5-35e1-11e5-b2a1-8f9b6690070a
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[29-Jul-2015 08:00:21 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[29-Jul-2015 08:00:24 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 0340088d-35e1-11e5-93a5-73d59d739e6c
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[29-Jul-2015 08:00:24 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[30-Jul-2015 08:00:02 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 20e421d1-36aa-11e5-bd97-35c40905c4c4
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[30-Jul-2015 08:00:03 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[30-Jul-2015 08:00:20 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 2b16c200-36aa-11e5-a8f2-7dd96423bfff
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[30-Jul-2015 08:00:20 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[30-Jul-2015 08:00:22 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 2ca43f76-36aa-11e5-bf5e-a3e79c44d9c8
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[30-Jul-2015 08:00:22 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[31-Jul-2015 08:00:03 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 4b6784af-3773-11e5-b940-4de5703273c9
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[31-Jul-2015 08:00:03 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[31-Jul-2015 08:00:26 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 593db0c0-3773-11e5-87ab-29b6a1ec18aa
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[31-Jul-2015 08:00:26 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[31-Jul-2015 08:00:29 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 5b3a92e4-3773-11e5-883d-952f004de0b3
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[31-Jul-2015 08:00:29 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[31-Jul-2015 10:49:04 America/Sao_Paulo] PHP Warning:  Unknown: Your script possibly relies on a session side-effect which existed until PHP 4.2.3. Please be advised that the session extension does not consider global variables as a source of data, unless register_globals is enabled. You can disable this functionality and this warning by setting session.bug_compat_42 or session.bug_compat_warn to off, respectively in Unknown on line 0
+[01-Aug-2015 08:00:04 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 76c08698-383c-11e5-a34f-63f54f7c34de
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[01-Aug-2015 08:00:04 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[01-Aug-2015 08:00:24 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 8265542d-383c-11e5-a0dc-0990efe380f6
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[01-Aug-2015 08:00:24 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[01-Aug-2015 08:00:27 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 841b8f81-383c-11e5-9f25-95cf6e8c2dfe
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[01-Aug-2015 08:00:27 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[02-Aug-2015 08:00:03 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: a0969220-3905-11e5-89d5-f3650d7897c8
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[02-Aug-2015 08:00:03 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[02-Aug-2015 08:00:22 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: ac0d2372-3905-11e5-9598-65e6d5e74f6a
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[02-Aug-2015 08:00:23 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[02-Aug-2015 08:00:25 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: ad974687-3905-11e5-83e0-d1aa29101f1d
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[02-Aug-2015 08:00:25 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[03-Aug-2015 08:00:02 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: ca7d660d-39ce-11e5-88f4-1dc5d919fbd3
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[03-Aug-2015 08:00:03 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[03-Aug-2015 08:00:26 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: d85fc80f-39ce-11e5-b46a-f7bb26bade44
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[03-Aug-2015 08:00:26 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[03-Aug-2015 08:00:28 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: d9bd352e-39ce-11e5-a034-8f935ddc28b2
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[03-Aug-2015 08:00:28 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[03-Aug-2015 09:53:01 America/Sao_Paulo] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/sgipl134/public_html/view/usuario.php on line 9
+[04-Aug-2015 08:00:03 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: f53741f6-3a97-11e5-aabc-3761c22f8334
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[04-Aug-2015 08:00:03 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[04-Aug-2015 08:00:24 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 01d208bc-3a98-11e5-8bcc-e588aace7316
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[04-Aug-2015 08:00:24 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[04-Aug-2015 08:00:26 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 0324eebc-3a98-11e5-ae04-830985c67788
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[04-Aug-2015 08:00:26 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[04-Aug-2015 09:09:44 America/Sao_Paulo] PHP Warning:  Unknown: Your script possibly relies on a session side-effect which existed until PHP 4.2.3. Please be advised that the session extension does not consider global variables as a source of data, unless register_globals is enabled. You can disable this functionality and this warning by setting session.bug_compat_42 or session.bug_compat_warn to off, respectively in Unknown on line 0
+[05-Aug-2015 08:00:04 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 2016cdc8-3b61-11e5-a30f-d358646987cb
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[05-Aug-2015 08:00:04 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[05-Aug-2015 08:00:23 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 2bd7d71c-3b61-11e5-89b3-0f2d3f5b2358
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[05-Aug-2015 08:00:24 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[05-Aug-2015 08:00:26 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 2d844e39-3b61-11e5-bedb-2510be6ee256
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[05-Aug-2015 08:00:26 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[05-Aug-2015 08:35:34 America/Sao_Paulo] PHP Warning:  Unknown: Your script possibly relies on a session side-effect which existed until PHP 4.2.3. Please be advised that the session extension does not consider global variables as a source of data, unless register_globals is enabled. You can disable this functionality and this warning by setting session.bug_compat_42 or session.bug_compat_warn to off, respectively in Unknown on line 0
+[06-Aug-2015 08:00:03 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 4a4ea886-3c2a-11e5-8004-3755aaf069b3
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[06-Aug-2015 08:00:03 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[06-Aug-2015 08:00:20 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 5465aab2-3c2a-11e5-a62a-c592cfa5f255
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[06-Aug-2015 08:00:20 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[06-Aug-2015 08:00:22 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 55b498ae-3c2a-11e5-b7c1-018ec476a8fe
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[06-Aug-2015 08:00:22 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[07-Aug-2015 08:00:03 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 74d4a33e-3cf3-11e5-9936-4f1821c286ff
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[07-Aug-2015 08:00:04 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[07-Aug-2015 08:00:30 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 84bce77d-3cf3-11e5-bd6b-691209cee424
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[07-Aug-2015 08:00:30 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[07-Aug-2015 08:00:35 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 87bc4497-3cf3-11e5-98a9-c12bb88d3227
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[07-Aug-2015 08:00:35 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[07-Aug-2015 11:31:25 America/Sao_Paulo] PHP Warning:  Unknown: Your script possibly relies on a session side-effect which existed until PHP 4.2.3. Please be advised that the session extension does not consider global variables as a source of data, unless register_globals is enabled. You can disable this functionality and this warning by setting session.bug_compat_42 or session.bug_compat_warn to off, respectively in Unknown on line 0
+[07-Aug-2015 16:09:50 America/Sao_Paulo] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/sgipl134/public_html/view/usuario.php on line 9
+[07-Aug-2015 16:24:36 America/Sao_Paulo] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/sgipl134/public_html/view/usuario.php on line 9
+[08-Aug-2015 08:00:02 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 9e636c3f-3dbc-11e5-ab72-bdfd79657612
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[08-Aug-2015 08:00:02 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[08-Aug-2015 08:00:22 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: aa0a0f09-3dbc-11e5-a24e-af32c63d91e8
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[08-Aug-2015 08:00:22 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[08-Aug-2015 08:00:24 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: ab82cc7c-3dbc-11e5-9a8b-2b6c91c5abd0
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[08-Aug-2015 08:00:24 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[08-Aug-2015 11:36:30 America/Sao_Paulo] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/sgipl134/public_html/view/usuario.php on line 9
+[08-Aug-2015 11:36:31 America/Sao_Paulo] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/sgipl134/public_html/view/usuario.php on line 9
+[09-Aug-2015 08:00:02 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: c8b4c261-3e85-11e5-ab72-bdfd79657612
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[09-Aug-2015 08:00:02 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[09-Aug-2015 08:00:21 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: d3f10a43-3e85-11e5-a1ac-a961d357e75a
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[09-Aug-2015 08:00:21 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[09-Aug-2015 08:00:23 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: d55c5a96-3e85-11e5-bfe4-4fbd9eafad5d
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[09-Aug-2015 08:00:23 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[10-Aug-2015 08:00:04 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: f4480e68-3f4e-11e5-b625-875aaa730ae5
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[10-Aug-2015 08:00:04 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[10-Aug-2015 08:00:23 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: ffbc565a-3f4e-11e5-ac41-4916c58a52b4
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[10-Aug-2015 08:00:23 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[10-Aug-2015 08:00:25 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 0127a6a2-3f4f-11e5-a741-35a026567b34
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[10-Aug-2015 08:00:26 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[10-Aug-2015 11:40:39 America/Sao_Paulo] PHP Warning:  Unknown: Your script possibly relies on a session side-effect which existed until PHP 4.2.3. Please be advised that the session extension does not consider global variables as a source of data, unless register_globals is enabled. You can disable this functionality and this warning by setting session.bug_compat_42 or session.bug_compat_warn to off, respectively in Unknown on line 0
+[10-Aug-2015 12:37:35 America/Sao_Paulo] PHP Warning:  Unknown: Your script possibly relies on a session side-effect which existed until PHP 4.2.3. Please be advised that the session extension does not consider global variables as a source of data, unless register_globals is enabled. You can disable this functionality and this warning by setting session.bug_compat_42 or session.bug_compat_warn to off, respectively in Unknown on line 0
+[11-Aug-2015 08:00:04 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 1ec5cb4d-4018-11e5-b7c1-018ec476a8fe
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[11-Aug-2015 08:00:04 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[11-Aug-2015 08:00:27 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 2c340ed4-4018-11e5-9008-618c787889ce
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[11-Aug-2015 08:00:27 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[11-Aug-2015 08:00:30 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 2e7c9f16-4018-11e5-8cbe-1f19bb40bbc1
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[11-Aug-2015 08:00:30 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[11-Aug-2015 16:31:38 America/Sao_Paulo] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/sgipl134/public_html/view/usuario.php on line 9
+[12-Aug-2015 08:00:05 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 49848985-40e1-11e5-8c89-5947dc55e0ba
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[12-Aug-2015 08:00:05 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[12-Aug-2015 08:00:26 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 56303fca-40e1-11e5-a62a-c592cfa5f255
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[12-Aug-2015 08:00:26 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[12-Aug-2015 08:00:29 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 584a6d70-40e1-11e5-afee-7f37405bac94
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[12-Aug-2015 08:00:29 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[13-Aug-2015 08:00:04 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 73b1dd0e-41aa-11e5-b0dd-3709a21c11fb
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[13-Aug-2015 08:00:04 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[13-Aug-2015 08:00:24 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 7fc54a9e-41aa-11e5-8a76-256f206609d4
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[13-Aug-2015 08:00:25 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[13-Aug-2015 08:00:27 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 8197c12b-41aa-11e5-b0dd-3709a21c11fb
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[13-Aug-2015 08:00:28 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[13-Aug-2015 09:16:54 America/Sao_Paulo] PHP Warning:  Unknown: Your script possibly relies on a session side-effect which existed until PHP 4.2.3. Please be advised that the session extension does not consider global variables as a source of data, unless register_globals is enabled. You can disable this functionality and this warning by setting session.bug_compat_42 or session.bug_compat_warn to off, respectively in Unknown on line 0
+[13-Aug-2015 12:32:19 America/Sao_Paulo] PHP Fatal error:  Out of memory (allocated 287047680) (tried to allocate 1174682 bytes) in /home/sgipl134/public_html/view/fpdf/fpdf.php on line 1225
+[13-Aug-2015 12:32:41 America/Sao_Paulo] PHP Fatal error:  Out of memory (allocated 287047680) (tried to allocate 1174682 bytes) in /home/sgipl134/public_html/view/fpdf/fpdf.php on line 1225
+[13-Aug-2015 12:33:04 America/Sao_Paulo] PHP Fatal error:  Out of memory (allocated 287047680) (tried to allocate 1174682 bytes) in /home/sgipl134/public_html/view/fpdf/fpdf.php on line 1225
+[13-Aug-2015 14:45:31 America/Sao_Paulo] PHP Fatal error:  Class 'database' not found in /home/sgipl134/public_html/model/conexao.php on line 13
+[13-Aug-2015 14:45:31 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting ']' in /home/sgipl134/public_html/model/db.php on line 60
+[13-Aug-2015 16:36:21 America/Sao_Paulo] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/sgipl134/public_html/view/usuario.php on line 9
+[14-Aug-2015 08:00:04 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 9e51eee3-4273-11e5-a0cd-e188aef77427
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[14-Aug-2015 08:00:05 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[14-Aug-2015 08:00:30 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: adb94358-4273-11e5-b0dd-3709a21c11fb
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[14-Aug-2015 08:00:31 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[14-Aug-2015 08:00:35 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: b03bf5e0-4273-11e5-adc0-8faf464f7697
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[14-Aug-2015 08:00:35 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[14-Aug-2015 12:42:51 America/Sao_Paulo] PHP Warning:  Unknown: Your script possibly relies on a session side-effect which existed until PHP 4.2.3. Please be advised that the session extension does not consider global variables as a source of data, unless register_globals is enabled. You can disable this functionality and this warning by setting session.bug_compat_42 or session.bug_compat_warn to off, respectively in Unknown on line 0
+[15-Aug-2015 08:00:04 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: c85090ef-433c-11e5-a1e3-0b613b95ae15
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[15-Aug-2015 08:00:04 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[15-Aug-2015 08:00:23 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: d3b967c6-433c-11e5-a515-372bf9b5bfc8
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[15-Aug-2015 08:00:23 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[15-Aug-2015 08:00:25 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: d52071e1-433c-11e5-a9cb-31cc0e9ba638
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[15-Aug-2015 08:00:25 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[16-Aug-2015 08:00:02 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: f19272de-4405-11e5-8619-f13b487dc77b
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[16-Aug-2015 08:00:02 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[16-Aug-2015 08:00:21 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: fcb7899f-4405-11e5-8004-3755aaf069b3
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[16-Aug-2015 08:00:21 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[16-Aug-2015 08:00:23 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: fe285722-4405-11e5-a62a-c592cfa5f255
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[16-Aug-2015 08:00:23 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[17-Aug-2015 08:00:05 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 1d8df67f-44cf-11e5-8902-57baaf4d0902
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[17-Aug-2015 08:00:05 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[17-Aug-2015 08:00:24 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 296d0e2f-44cf-11e5-8004-3755aaf069b3
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[17-Aug-2015 08:00:25 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48
+[17-Aug-2015 08:00:27 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 2ab01559-44cf-11e5-a0c8-b5e81a797f36
+ in /home/sgipl134/public_html/view/ses.php on line 363
+[17-Aug-2015 08:00:27 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class SimpleEmailService in /home/sgipl134/public_html/view/ses.php on line 48

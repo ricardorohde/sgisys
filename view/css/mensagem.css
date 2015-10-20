@@ -1,0 +1,63 @@
+.pastas {
+    float:left;
+    width: 240px;
+    height:auto;
+    background: white;
+    border: 2px solid #ccc;
+    margin: 10px;
+    padding: 5px;
+    z-index: 200;
+}
+
+.pastas ul {
+    list-style: none;
+}
+
+.pastas li {
+    margin-left: 10px;
+}
+.mensagens {
+    float:left;
+    width: 800px;
+    height:auto;
+    background: white;
+    border: 2px solid #ccc;
+    margin: 10px;
+    padding: 5px;
+    z-index: 201;
+}
+  
+
+#ler {
+    position: relative;
+    width: 795px;
+    height: auto;
+    background: #eee;
+    display: block;
+    z-index: 900;
+}
+
+#fechar {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    width: auto;
+    height: auto;
+    border: 1px solid red;
+    background: #ccc;
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+}
+
+#fundo-negro {
+    display: none;
+    background: black;
+    opacity: 0.7;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 300;
+}

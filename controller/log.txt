@@ -1,0 +1,122 @@
+﻿ UPDATE site_config SET  nome = 'VITORIA GARDEN' ,  background = '191e9c05f6e414755c30cac425fa4529.jpg' ,  background_altura = '650' ,  titulo_pagina = 'Vitoria Garden' ,  url = 'http://vitoriagardenimoveis.com.br' ,  email_envio = 'atendimento@vitoriagardenimoveis.com.br' ,  tag_description = '' ,  tag_keywords = '' ,  imagem_logo = '4ac9426d0a19866304f42a088ca113fb.jpg' ,  imagem_altura = '100' ,  imagem_largura = '200' ,  imagem_mtop = '15' ,  imagem_mleft = '10' ,  script = '<style>
+#titulo-destaque {
+color: red;
+font-size: 15pt;
+font-weight: bold;
+}
+.secoes, .sec4, .sec2 {
+   background: none;
+}
+.secoes, .sec1, .sec2 {
+background: none;
+}
+.rodape-fixa {
+width: 100%;
+height: 50px;
+position: fixed;
+bottom: 0;
+left: 0;
+z-index: 998;
+background: #BFA163;
+border-top: 4px solid #0E0EA1;
+color: #fff;
+font-size: 22px;
+font-weight: bold;
+}
+</style>' ,  pagina_background = 'FFFFFF' ,  pagina_fonte_padrao = '\'Play\', sans-serif;' ,  pagina_cor_padrao = 'FFFFFF' ,  pagina_fonte_tamanho = '13' ,  secoes_background = 'FFFFFF' ,  tipo_destaques = 'a' ,  menu_superior_li = 'float: left;
+width: 100px;
+height: 26px;
+border: 1px solid #ccc;
+background: none;
+border-radius: 5px;
+cursor: pointer;
+margin-right: 10px;
+color: #ffffff;
+line-height: 30px;
+text-align: center;
+font-size: 13px;' ,  secao1_tipo = '' ,  secao1_background = 'FFFFFF' ,  secao1_img = 'd5e947e7d54e113d1bae67fb1d289fbf.jpg' ,  secao2_tipo = 'div_banner_menu' ,  secao2_background = 'DED5C3' ,  secao2_atendimento = 'Atendimento (11) 4445-4494' ,  secao2_atendimento_fonte = '\\'Karla\\', sans-serif;' ,  secao2_atendimento_cor = '000000' ,  secao2_atendimento_tamanho = '18' ,  secao3_tipo = 'horizontal' ,  secao3_background = 'BFA163' ,  secao3_border_color = 'FFFFFF' ,  secao3_cor_botao = '0E0EA1' ,  secao3_cor_fonte_botao = 'FFFFFF' ,  secao3_tipocidade = 'cidade' ,  secao4_background = 'BFA163' ,  secao5_tipo = 'ofertas2' ,  secao5_img = '' ,  secao5_background = '2B52F0' ,  secao5_banner1 = 'aa07433d0da7626f1f6fc280250a8cd2.jpg' ,  secao5_banner2 = '7e9ae0a511a3258fb333906e428ae098.jpg' ,  secao5_banner3 = '8ad501e468ed77fdc6ede01a41f231a5.jpg' ,  secao5_banner4 = 'f44df01323905834e199728b8d9815ce.jpg' ,  secao5_banner5 = 'da45a4d3990ce913d6f1f3189b088281.jpg' ,  secao5_efeito = '4' ,  secao5_velocidade_efeito = '1' ,  secao5_duracao_efeito = '4' ,  secao5_intervalo_efeito = '2' ,  secao6_tipo = 'lista' ,  secao6_img = '' ,  secao6_background = 'FFFFFF' ,  secao6_cor_fonte = '101029' ,  ofertas_timeout = '10' ,  secao7_tipo = 'img' ,  secao7_img = 'c46038f496acdc059c593fdacc4aafc8.jpg' ,  secao7_background = '1919A6' ,  secao7_conteudo = '<span>O QUE PROCURA?</span>
+     <ul>
+         <li>Deseja simular um <br><en>Financiamento?</en></li>
+         <li>Envie um e-mail.<br><en>Fale conosco.</en></li>
+         <li>Buscar um imóvel de<br><en>Alto padrão</en></li>
+         <li>Ligamos para você!<br><en>Envie seu pedido.</en></li>
+     </ul>' ,  secao8_tipo = 'lista' ,  secao8_img = '' ,  secao8_background = 'FFFFFF' ,  secao8_cor_fonte = '000000' ,  secao9_background = 'FFFFFF' ,  secao9_tipo = 'img' ,  secao9_img = 'f7f06033c806117540ede24ac093a065.jpg' ,  rodape_background = '2F4258' ,  rodape_conteudo = '<div style=\"width:100%;height: auto;float: left;background: #2F4258;border-top: 10px solid #BFA163;\">
+<nav>
+<ul><strong>Negócios</strong>
+<li onclick=\"window.open(\\'index.php?q=Vendas\\',\\'_self\\');\">Vendas</li>
+<li onclick=\"window.open(\\'index.php?q=Locação\\',\\'_self\\');\">Locação</li>
+<li onclick=\"window.open(\\'index.php?q=7\\',\\'_self\\');\">Simuladores</li>
+</ul>
+<ul><strong>Contato</strong>
+<li onclick=\"window.open(\\'index.php?q=9\\',\\'_self\\');\">Fale Conosco</li>
+<li onclick=\"window.open(\\'index.php?q=11\\',\\'_self\\');\">Localização</li>
+<li onclick=\"window.open(\\'index.php?q=8\\',\\'_self\\');\">Cadastre seu imóvel</li>
+<li onclick=\"window.open(\\'index.php?q=10\\',\\'_self\\');\">Sobre a Empresa</li>
+</ul>
+<ul><strong>Para Você</strong>
+<li onclick=\"window.open(\\'index.php?q=Fav\\',\\'_self\\');\">Entrar</li>
+<li onclick=\"window.open(\\'index.php?q=Fav&id=meus_dados\\',\\'_self\\');\">Meus dados</li>
+<li onclick=\"window.open(\\'index.php?q=Fav&id=meus_favoritos\\',\\'_self\\');\">Imóveis Favoritos</li>
+<li onclick=\"window.open(\\'https://www.facebook.com/vitoriagardenimoveis\\',\\'_self\\');\">Facebook</li>
+</ul>
+<ul><strong>Adm Site</strong>
+<li onclick=\"window.open(\\'http://sgiplus.com.br\\',\\'_blank\\');\">Adm</li>
+<li onclick=\"window.open(\\'http://sgiplus.com.br:2095\\',\\'_blank\\');\">Webmail</li>
+</ul>
+</nav>
+</div>
+<br>
+<div style=\"width:100%;height: auto;float: left;background: #2F4258;border-top: 3px solid #BFA163;\">
+</div>
+
+<footer style=\"padding: 30px;font-size: 18px;\">
+<strong>
+<br>Av. Marcelino Bressiane, 980 - Jardim Marcelino
+<br>Caieiras - SP CEP 07713-250
+<br>Tels ( 11 ) 4445-4494 / 4605-8975 / 9 6988-0125
+</strong>
+<p align=\"right\"> 
+<img src=\"img/facebook.png\" width=\"30\" onclick=\"window.open(\\'https://www.facebook.com/vitoriagardenimoveis\\',\\'_blank\\');\" style=\"cursor: pointer;\">
+<!--
+<img src=\"img/twitter.png\" width=\"30\">
+<img src=\"img/youtube.png\" width=\"30\">
+<img src=\"img/googleplus.png\" width=\"30\">
+-->
+</p>
+</footer>
+<div class=\"rodape-fixa\">
+<table align=\"center\">
+<tr>
+<td width=\"330\">
+<a href=\"mailto: atendimento@vitoriagardenimoveis.com.br\" target=\"_blank\"><font color=\"#fff\">atendimento@vitoriagardenimoveis.com.br</font></a>
+</td>
+<td width=\"330\">
+<img src=\"http://www.sgiplus.com.br/site/fotos/0001/b66a2fecdbdf0d58e619a74f5c488e17.jpg\" style=\"margin-top: -20px;\">
+</td>
+<td width=\"330\">
+(11) 4445-4494 | 4605-8975
+</td>
+
+</tr>
+</table>
+</div>' ,  rodape_css = '#rodape {
+    clear: both;
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-top: 3px solid #ccc;
+    z-index: 110;
+}
+
+#rodape ul {
+    padding: 30px;
+    float: left;
+    margin: 20px;
+    list-style: none;
+}
+
+#rodape li {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}' ,  servidor_ftp = 'ftp.vitoriagardenimoveis.com.br' ,  usuario_ftp = 'sgi0001' ,  senha_ftp = 'imoveis0102' ,  pasta_ftp = '/public_html/fotos/' 

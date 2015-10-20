@@ -1,0 +1,89 @@
+.topo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #eee;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.topo img{
+    position: absolute;
+    top: 5px;
+    left: 5px; 
+}
+
+.usuario {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 250px;
+    height: 60px;
+    background: #cfeef7;
+    color: #3a4649;
+    font-size: 14px;
+    text-align: center;
+    alignment-adjust: middle;
+    line-height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px #ccc;
+}
+
+.usuario-foto {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    overflow: hidden;
+    border: 1px solid #eee;
+}
+.usuario-dados {
+    position: relative;
+    width: auto;
+    height: auto;
+    float: left;
+    margin-left: 75px;
+}
+
+#mensagens-status {
+    position: absolute;
+    top: 10px;
+    right: 310px;
+    width: 250px;
+    height: 60px;
+    background: #fff;
+    color: #3a4649;
+    font-size: 14px;
+    text-align: center;
+    alignment-adjust: middle;
+    line-height: 28px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px #ccc;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+.site-nome {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+}
+
+.alerta {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    width: 10%;
+    height: auto;
+    border: 1px solid #000;
+    background: #fff;
+}

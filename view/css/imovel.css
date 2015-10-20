@@ -1,0 +1,121 @@
+#pesquisa {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+#pesquisa select {
+    width: 200px;
+}
+
+.div_esq {
+    width: auto;
+    height: auto;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.div_dir {
+    width: auto;
+    width: 600px;
+    height: auto;
+    float: left;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+#mais_fotos {
+    position: absolute;
+    top: 115px;
+    left: 50%;
+    margin-left: -680px;
+    width: 180px;
+    height: 600px;
+    background: #e2e2e2;
+    border: 0.5px solid #cfeef7;
+    display: none;
+    overflow: auto;
+}
+
+#mais_fotos img{
+    padding: 10px;
+    cursor: pointer;
+}
+
+#foto-detalhe {
+    width: 430px;
+    height: 322px;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    padding: 0;
+    margin: 0;
+    float:left;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px; 
+    cursor: pointer;
+}
+
+#foto_grande {
+    min-height: 322px;
+}
+
+.form-select {
+    width: 200px;
+    height: 24px;
+}
+
+#mostrar {
+    width: 100%;
+    height: auto;
+    border: 2px solid #0038ce;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+#div-fotos {
+    display: none;
+    background: white;
+    overflow: hidden;
+}
+
+#div-fotos img {
+    float: left;
+    margin: 10px;
+    width: 150px;
+}
+
+.form-campo-imovel {
+    width: 220px;
+    padding: 5px;
+    height: auto;
+    float:left;
+    margin-left: 20px;
+    font-size: 13px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+#form-detalhe {
+    margin-bottom: 20px;
+    width: 100% !important ;
+    left: 0;
+    margin-left: 0;
+}
+
+.botao-extra {
+    position: absolute;
+    top: 20px;
+    right: 200px;
+}
+
+.form-detalhe fieldset {
+    float:left;
+    z-index: 999;
+}

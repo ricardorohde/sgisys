@@ -1,0 +1,22 @@
+<?php
+
+if (!class_exists('database')) {
+
+    class database {
+
+        public $cfg_con;
+
+        public function __construct() {
+
+            $this->cfg_con = array();
+
+            $this->cfg_con['type'] = 'mysql';
+            $this->cfg_con['server'] = 'LOCALHOST';
+            $this->cfg_con['database'] = 'sgi';
+            $this->cfg_con['user'] = 'sgifacil';
+            $this->cfg_con['password'] = '12345678';
+        }
+
+    }
+
+}

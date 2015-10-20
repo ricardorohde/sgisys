@@ -1,0 +1,199 @@
+[06-Aug-2015 11:25:02 America/Sao_Paulo] PHP Warning:  POST Content-Length of 13019757 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[06-Aug-2015 11:25:17 America/Sao_Paulo] PHP Warning:  POST Content-Length of 13019757 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[06-Aug-2015 11:27:55 America/Sao_Paulo] PHP Warning:  POST Content-Length of 13019752 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[06-Aug-2015 11:28:01 America/Sao_Paulo] PHP Warning:  POST Content-Length of 13019752 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[06-Aug-2015 13:42:37 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Aug-2015 13:42:38 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Aug-2015 14:12:48 America/Sao_Paulo] PHP Warning:  ftp_connect() [<a href='function.ftp-connect'>function.ftp-connect</a>]: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/sgipl134/public_html/controller/cadastro_foto_upload1.php on line 20
+[06-Aug-2015 14:12:48 America/Sao_Paulo] PHP Warning:  ftp_login() expects parameter 1 to be resource, boolean given in /home/sgipl134/public_html/controller/cadastro_foto_upload1.php on line 21
+[06-Aug-2015 14:13:00 America/Sao_Paulo] PHP Warning:  ftp_connect() [<a href='function.ftp-connect'>function.ftp-connect</a>]: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/sgipl134/public_html/controller/cadastro_foto_upload1.php on line 20
+[06-Aug-2015 14:13:00 America/Sao_Paulo] PHP Warning:  ftp_login() expects parameter 1 to be resource, boolean given in /home/sgipl134/public_html/controller/cadastro_foto_upload1.php on line 21
+[06-Aug-2015 16:00:47 America/Sao_Paulo] PHP Warning:  POST Content-Length of 18210835 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[06-Aug-2015 16:01:24 America/Sao_Paulo] PHP Warning:  POST Content-Length of 18210835 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[06-Aug-2015 16:02:15 America/Sao_Paulo] PHP Warning:  POST Content-Length of 18210835 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[06-Aug-2015 16:02:36 America/Sao_Paulo] PHP Warning:  POST Content-Length of 18210835 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[06-Aug-2015 16:11:19 America/Sao_Paulo] PHP Warning:  POST Content-Length of 18210833 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[06-Aug-2015 16:12:40 America/Sao_Paulo] PHP Warning:  POST Content-Length of 18210835 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[06-Aug-2015 16:20:18 America/Sao_Paulo] PHP Warning:  POST Content-Length of 13136086 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[06-Aug-2015 17:53:03 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2003] Can't connect to MySQL server on '162.144.109.206' (99)' in /home/sgipl134/public_html/model/conexao.php:19
+Stack trace:
+#0 /home/sgipl134/public_html/model/conexao.php(19): PDO->__construct('mysql:host=162....', 'sgipl134_0021', 'imoveis0102')
+#1 /home/sgipl134/public_html/controller/portal_caracteristica.php(30): conexao->__construct()
+#2 /home/sgipl134/public_html/controller/vivareal.php(156): portal_caracteristica_procurar('VIVAREAL', NULL)
+#3 {main}
+  thrown in /home/sgipl134/public_html/model/conexao.php on line 19
+[06-Aug-2015 17:53:03 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2003] Can't connect to MySQL server on '162.144.109.206' (99)' in /home/sgipl134/public_html/model/conexao.php:19
+Stack trace:
+#0 /home/sgipl134/public_html/model/conexao.php(19): PDO->__construct('mysql:host=162....', 'sgipl134_0021', 'imoveis0102')
+#1 /home/sgipl134/public_html/controller/usuario.php(11): conexao->__construct()
+#2 /home/sgipl134/public_html/controller/ajax_mensagem.php(13): usuario_carregar('15')
+#3 {main}
+  thrown in /home/sgipl134/public_html/model/conexao.php on line 19
+[06-Aug-2015 18:16:02 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Aug-2015 18:16:04 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[06-Aug-2015 19:04:21 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/sgipl134/public_html/controller/cadastro_foto_grava.php on line 19
+[07-Aug-2015 16:30:50 America/Sao_Paulo] PHP Warning:  POST Content-Length of 19819252 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[07-Aug-2015 16:43:03 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/sgipl134/public_html/controller/cadastro_foto_grava.php on line 19
+[07-Aug-2015 16:43:13 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/sgipl134/public_html/controller/cadastro_foto_grava.php on line 19
+[07-Aug-2015 16:43:30 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/sgipl134/public_html/controller/cadastro_foto_grava.php on line 19
+[07-Aug-2015 16:43:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/sgipl134/public_html/controller/cadastro_foto_grava.php on line 19
+[07-Aug-2015 16:43:59 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/sgipl134/public_html/controller/cadastro_foto_grava.php on line 19
+[07-Aug-2015 17:01:09 America/Sao_Paulo] PHP Warning:  POST Content-Length of 10589537 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[10-Aug-2015 10:03:21 America/Sao_Paulo] PHP Warning:  POST Content-Length of 19670130 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[10-Aug-2015 10:35:42 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/sgipl134/public_html/controller/cadastro_foto_grava.php on line 19
+[10-Aug-2015 10:35:50 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/sgipl134/public_html/controller/cadastro_foto_grava.php on line 19
+[10-Aug-2015 10:36:10 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/sgipl134/public_html/controller/cadastro_foto_grava.php on line 19
+[10-Aug-2015 11:09:41 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[10-Aug-2015 12:40:39 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[10-Aug-2015 12:40:40 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[10-Aug-2015 12:40:41 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[10-Aug-2015 12:40:43 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[10-Aug-2015 12:40:44 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[10-Aug-2015 12:41:09 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[10-Aug-2015 12:41:10 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[10-Aug-2015 12:41:12 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[10-Aug-2015 12:41:13 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[10-Aug-2015 12:41:16 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[10-Aug-2015 13:16:58 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[10-Aug-2015 13:16:58 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[10-Aug-2015 13:16:58 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[10-Aug-2015 13:25:16 America/Sao_Paulo] PHP Warning:  POST Content-Length of 9181592 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[10-Aug-2015 14:12:04 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[10-Aug-2015 14:12:04 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[10-Aug-2015 14:12:04 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[10-Aug-2015 14:12:05 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[10-Aug-2015 14:38:21 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/sgipl134/public_html/controller/cadastro_foto_grava.php on line 19
+[10-Aug-2015 14:39:55 America/Sao_Paulo] PHP Warning:  POST Content-Length of 23648078 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[10-Aug-2015 14:40:49 America/Sao_Paulo] PHP Warning:  POST Content-Length of 23648078 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[10-Aug-2015 14:42:46 America/Sao_Paulo] PHP Warning:  POST Content-Length of 19792152 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[10-Aug-2015 14:45:48 America/Sao_Paulo] PHP Warning:  POST Content-Length of 16315076 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[10-Aug-2015 14:57:23 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/sgipl134/public_html/controller/cadastro_foto_grava.php on line 19
+[10-Aug-2015 15:30:07 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[10-Aug-2015 15:30:09 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[10-Aug-2015 18:01:38 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2003] Can't connect to MySQL server on '162.144.109.206' (99)' in /home/sgipl134/public_html/model/conexao.php:19
+Stack trace:
+#0 /home/sgipl134/public_html/model/conexao.php(19): PDO->__construct('mysql:host=162....', 'sgipl134_0021', 'imoveis0102')
+#1 /home/sgipl134/public_html/controller/imovel_caracteristica.php(16): conexao->__construct()
+#2 /home/sgipl134/public_html/controller/vivareal.php(155): imovel_caracteristica_carregar(NULL)
+#3 {main}
+  thrown in /home/sgipl134/public_html/model/conexao.php on line 19
+[11-Aug-2015 13:27:16 America/Sao_Paulo] PHP Warning:  POST Content-Length of 10164626 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[11-Aug-2015 13:49:49 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: fb110ddb-4048-11e5-b128-7785dbc513f0
+ in /home/sgipl134/public_html/controller/ses.php on line 363
+[11-Aug-2015 13:50:16 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 0affe1ce-4049-11e5-84af-9b050fbfecfd
+ in /home/sgipl134/public_html/controller/ses.php on line 363
+[11-Aug-2015 13:50:29 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 127b9f45-4049-11e5-b4a0-9b9d7eb24696
+ in /home/sgipl134/public_html/controller/ses.php on line 363
+[11-Aug-2015 13:51:17 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 2f485da8-4049-11e5-ab68-4577db01bf6e
+ in /home/sgipl134/public_html/controller/ses.php on line 363
+[11-Aug-2015 13:51:53 America/Sao_Paulo] PHP Warning:  SimpleEmailService::sendEmail(): Sender - SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+Request Id: 448030e3-4049-11e5-bfe4-4fbd9eafad5d
+ in /home/sgipl134/public_html/controller/ses.php on line 363
+[11-Aug-2015 14:01:41 America/Sao_Paulo] PHP Warning:  POST Content-Length of 11274235 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[11-Aug-2015 14:06:48 America/Sao_Paulo] PHP Warning:  POST Content-Length of 9358828 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[11-Aug-2015 14:33:19 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Aug-2015 14:33:20 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Aug-2015 14:33:22 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Aug-2015 14:33:23 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Aug-2015 14:33:24 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Aug-2015 14:33:25 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Aug-2015 14:33:27 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Aug-2015 14:33:28 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Aug-2015 15:40:17 America/Sao_Paulo] PHP Warning:  POST Content-Length of 101781994 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[11-Aug-2015 15:44:28 America/Sao_Paulo] PHP Warning:  POST Content-Length of 101781994 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[11-Aug-2015 15:44:31 America/Sao_Paulo] PHP Warning:  POST Content-Length of 101781994 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[11-Aug-2015 16:13:09 America/Sao_Paulo] PHP Warning:  POST Content-Length of 11068943 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[11-Aug-2015 16:13:45 America/Sao_Paulo] PHP Warning:  POST Content-Length of 11068938 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[11-Aug-2015 16:36:35 America/Sao_Paulo] PHP Warning:  POST Content-Length of 8676663 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[11-Aug-2015 16:57:48 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Aug-2015 16:57:49 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Aug-2015 16:57:51 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[11-Aug-2015 18:00:39 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2003] Can't connect to MySQL server on '162.144.109.206' (99)' in /home/sgipl134/public_html/model/conexao.php:19
+Stack trace:
+#0 /home/sgipl134/public_html/model/conexao.php(19): PDO->__construct('mysql:host=162....', 'sgipl134_0021', 'imoveis0102')
+#1 /home/sgipl134/public_html/controller/imovel_foto.php(23): conexao->__construct()
+#2 /home/sgipl134/public_html/controller/imovelweb.php(145): imovel_foto_carregar('11301')
+#3 {main}
+  thrown in /home/sgipl134/public_html/model/conexao.php on line 19
+[12-Aug-2015 12:44:35 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 12:44:35 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 12:44:37 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 12:44:37 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 12:44:38 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 15:51:01 America/Sao_Paulo] PHP Warning:  POST Content-Length of 24217245 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[12-Aug-2015 17:59:50 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 17:59:52 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 17:59:53 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 17:59:53 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 17:59:54 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 17:59:56 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 17:59:57 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 17:59:58 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 18:00:00 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 18:00:01 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 18:00:03 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 18:00:06 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 18:00:07 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 18:00:09 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 18:00:10 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 18:00:12 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 18:00:14 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 18:00:15 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 18:00:16 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 18:00:18 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 18:00:19 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 18:00:22 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 18:00:25 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 18:00:31 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 18:00:32 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[12-Aug-2015 18:39:03 America/Sao_Paulo] PHP Warning:  ftp_connect() [<a href='function.ftp-connect'>function.ftp-connect</a>]: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/sgipl134/public_html/controller/vivareal.php on line 259
+[13-Aug-2015 14:14:15 America/Sao_Paulo] PHP Warning:  POST Content-Length of 56071995 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[13-Aug-2015 14:24:03 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/sgipl134/public_html/controller/cadastro_foto_grava.php on line 19
+[13-Aug-2015 14:26:26 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[13-Aug-2015 14:26:28 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[13-Aug-2015 14:26:30 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[13-Aug-2015 14:26:32 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[13-Aug-2015 14:26:33 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[13-Aug-2015 14:26:34 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[13-Aug-2015 14:26:35 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[13-Aug-2015 14:26:36 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[13-Aug-2015 14:26:38 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[13-Aug-2015 14:26:39 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[13-Aug-2015 14:26:42 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[13-Aug-2015 14:46:38 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[13-Aug-2015 14:46:39 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[13-Aug-2015 14:46:40 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[13-Aug-2015 14:46:40 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[13-Aug-2015 14:46:41 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[13-Aug-2015 14:46:42 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[13-Aug-2015 16:03:24 America/Sao_Paulo] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/sgipl134/public_html/model/cadastro.php on line 220
+[13-Aug-2015 16:19:38 America/Sao_Paulo] PHP Warning:  POST Content-Length of 25451767 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[13-Aug-2015 16:27:15 America/Sao_Paulo] PHP Warning:  POST Content-Length of 25451764 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[13-Aug-2015 16:30:07 America/Sao_Paulo] PHP Fatal error:  Class 'database' not found in /home/sgipl134/public_html/model/conexao.php on line 13
+[13-Aug-2015 16:30:07 America/Sao_Paulo] PHP Fatal error:  Class 'database' not found in /home/sgipl134/public_html/model/conexao.php on line 13
+[13-Aug-2015 16:36:18 America/Sao_Paulo] PHP Warning:  POST Content-Length of 22797041 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[13-Aug-2015 16:54:05 America/Sao_Paulo] PHP Warning:  POST Content-Length of 25451767 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[13-Aug-2015 17:08:18 America/Sao_Paulo] PHP Warning:  POST Content-Length of 12942761 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[14-Aug-2015 10:43:02 America/Sao_Paulo] PHP Warning:  POST Content-Length of 25451767 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[14-Aug-2015 11:28:55 America/Sao_Paulo] PHP Warning:  POST Content-Length of 17402025 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[14-Aug-2015 11:31:32 America/Sao_Paulo] PHP Warning:  POST Content-Length of 11468903 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[14-Aug-2015 11:45:48 America/Sao_Paulo] PHP Warning:  POST Content-Length of 11523543 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[14-Aug-2015 12:12:41 America/Sao_Paulo] PHP Warning:  POST Content-Length of 10251670 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[14-Aug-2015 12:44:14 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/sgipl134/public_html/controller/cadastro_foto_grava.php on line 19
+[16-Aug-2015 14:13:09 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Aug-2015 14:13:13 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Aug-2015 14:13:18 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Aug-2015 14:13:21 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Aug-2015 14:13:23 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Aug-2015 14:44:08 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Aug-2015 14:44:12 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Aug-2015 14:44:16 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Aug-2015 14:44:18 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Aug-2015 14:44:19 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Aug-2015 15:18:49 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Aug-2015 15:18:54 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[16-Aug-2015 15:19:01 America/Sao_Paulo] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0

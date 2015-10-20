@@ -1,0 +1,60 @@
+.menu {
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background: #eee;
+    margin-top: 60px;
+    border-bottom: 2px solid #99cc33;
+}
+
+.menu-botao {
+    float:left;
+    width: 150px;
+    height: 30px;
+    background: #b3c1c5;
+    color: #3a4649;
+    font-family: 'Share';
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    border-bottom: 2px solid #99cc33;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+    margin-right: 1px;
+    z-index: 4;
+}
+
+.menu-botao:hover, .menu-botao-sel {
+    background: #99cc33;
+}
+
+.submenu {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background: white;
+    margin-top: 60px;
+    border-top: 2px solid #99cc33;
+    border-bottom: 2px solid #99cc33;
+}
+
+.submenu-botao {
+    float: left;
+    width: 149px;
+    height: 25px;
+    background: white;
+    border-right: 2px solid #99cc33;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 3px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.submenu-botao:hover {
+    background: #99cc33;
+}

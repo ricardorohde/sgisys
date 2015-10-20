@@ -1,0 +1,351 @@
+a, a:visited {
+    color: #151515;
+    text-decoration: none;
+}
+
+
+#mostrar {
+    width: auto;
+    height: auto;
+    border: 2px solid #0038ce;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+#pesquisa {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.div_esq {
+    width: auto;
+    height: auto;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.div_dir {
+    width: auto;
+    width: 600px;
+    height: auto;
+    float: left;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.form-varchar {
+    width: auto;
+    padding: 5px;
+    height: auto;
+    float:left;
+    padding-left: 15px;
+    font-size: 11px;
+    overflow: hidden;
+}
+
+.form-varchar-lista {
+    width: auto;
+    padding: 5px;
+    height: auto;
+    float:left;
+    padding-left: 10px;
+    font-size: 11px;
+}
+
+.form-textarea {
+    width: auto;
+    padding: 10px;
+    height: auto;
+    float:left;
+    padding-left: 30px;
+    font-size: 11px;
+    overflow: hidden;
+}
+
+#foto-detalhe {
+    width: 430px;
+    height: 322px;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    padding: 0;
+    margin: 0;
+    float:left;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    background: white;
+}
+
+#foto-detalhe-p {
+    width: 100px;
+    height: 130px;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    padding: 0;
+    margin: 0;
+    float:left;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    background: white;
+}
+
+#div-fotos {
+    display: none;
+    background: white;
+    overflow: hidden;
+    z-index: 900;
+    padding: 10px;
+}
+
+#div-fotos img {
+    float: left;
+    margin: 10px;
+    width: 150px;
+}
+
+#fundo-negro {
+    display: none;
+    background: black;
+    opacity: 0.7;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+#listagem {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+
+#quadro-edita {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: -450px;
+    width: 920px;
+    height: auto;
+    border: 2px solid orange;
+    border-radius: 15px 15px 0 0; 
+    background: #eee;
+    z-index: 999;
+    display: none;
+    overflow: hidden;
+}
+
+.conteudo-mensagem {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    background: green;
+
+}
+
+.caracteristica {
+    float: left;
+    width: 205px;
+    height: 25px;
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+
+.botao_pagina {
+    float: right;
+    width: 160px;
+    height: 30px;
+    border: 1px solid #006a91;
+    background: #0038ce;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    margin: 5px;
+    line-height: 30px;
+}
+
+.div-linha-ajax {
+    width: 100%;
+    height: 28px;
+}
+
+.div-linha-ajax,.div-linha-ajax input[type=text]{
+    font-family: Arial,Verdana,Tahoma;
+    font-size: 8pt;
+}
+
+.div-esq-ajax {
+    width: 120px;
+    height: auto;
+    float: left;
+}
+
+.div-dir-ajax {
+    width: auto;
+    height: auto;
+    float: left;
+
+}
+
+.div-foto-ajax {
+    width: 350px;
+    height: 350px;
+    float: left;
+    overflow: hidden;
+    padding: 20px;
+    margin: 10px;
+    border: 3px solid #ccc; 
+}
+
+.cadastro-referencia {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: auto;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    text-align: right;
+    padding: 15px;
+    padding-right: 20px;
+    background: #ffc;
+    color: red;
+    font-weight: bold;
+    margin-top: -2px;
+    margin-right: -2px;
+}
+
+.imovel2-foto {
+    width: 360px;
+    height: 360px;
+    margin: 0px;
+    border: 3px solid #aec2cc;
+    overflow: hidden;
+    cursor: pointer;
+    background: white;
+    border-radius: 20px 0 10px 0px;
+    z-index: 600;
+    float:left;
+}
+
+.form2-titulo {
+    position: absolute;
+    top: 0;
+    left: 366px;
+    width: 100%;
+    padding: 10px;
+    height: 20px;
+    background: #b3c1c5;
+    color: white;
+}
+
+#foto2-detalhe {
+    width: 366px;
+    height: 382px;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    padding: 0;
+    margin: 0;
+    float:left;
+    cursor: pointer;
+    background: white;
+}
+
+.form2-varchar {
+    width: auto;
+    padding: 0px;
+    float:left;
+    padding: 0px;
+    margin : 1px;
+    padding : 1px;
+    font-size: 13px;
+    overflow: hidden;
+    height: 42px;
+}
+
+.form2-textarea {
+    width: auto;
+    padding: 0px;
+    float:left;
+    padding: 0px;
+    margin : 1px;
+    padding : 1px;
+    font-size: 13px;
+    overflow: hidden;
+}
+
+.form2-varchar input[type=text],.form2-varchar textarea,.form2-textarea input[type=text],.form2-textarea textarea,.form2-textarea select,.form2-textarea option{
+    font-size: 10px;
+    font-family: 'Arial' ,'Verdana','Tahoma' ;
+    color: #151515;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.tipo-imovel {
+    width: 100px;
+    height: 60px;
+    border: 2px solid #ccc;
+    float: left;
+    background: #0038ce;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.tipos-imovel {
+    width: 100%;
+    height: 79px;
+}
+
+.cadastro-total {
+    float:left;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #ccc;
+    border-radius : 10px;
+    margin: 10px;
+    background: #fff;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.envia-email {
+    position: absolute;
+    top: 100px;
+    left: 800px;
+    width: 410px;
+    height: 300px;
+    background: #eee;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 0 3px #000;
+    z-index: 999;
+    display: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.linha-endereco {
+    width: 700px;
+    float: left;
+    overflow: hidden;
+}
